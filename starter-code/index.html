@@ -1,12 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
   <title>npm</title>
 </head>
 <body>
-  <!-- Your code goes here -->
+
+<!--Aqui empieza la diversion :) -->>
+  <nav class="navbar">
+    <div>
+    <p>Neophobe Plebeian Mumpsimus</p>
+    </div>
+    <ul>
+      <li><a href="">npm Enterprise</a></li>
+      <li><a href="">features</a> </li>
+      <li><a href="">pricing</a></li>
+      <li><a href="">documentation</a></li>
+      <li><a href="">support</a></li>
+    </ul>
+  </nav>
+  <header>
+    <div class="header-up">
+      <img  id="npm-logo" src="images/npm-logo.png" alt="npm logo">
+
+      <form action="" method="post">
+        <div class="search-bar-cont">
+          <input id="text-bar" type="text" placeholder="find packages">
+          <input id="button" type="submit" value="search"></input>
+        </div>
+      </form>
+      <div class="header-upper-rigth">
+        <a href="">sign up</a><p>or </p><a href=""> log in</a>
+        <img id="bear-logo" src="images/bear-logo.png" alt="bear logo">
+      </div>
+    </div>
+    <div class="maintext">
+      <h2>Build amazing things</h2>
+      <p>npm is the package manager for JavaScript and the world's largest software registery. Discover packages for reusable code -- and assemble them in powerful new ways.</p>
+      <input id="input-npm" type="submit" value="Sign up for npm"></input> <!--AQUI IRIA OTRO FROM? O lo puedo poner dentro del form anterior o que pedo?-->
+    </div>
+  </header>
+
+  <section class="section2">
+      <img src="images/collaboration.svg">
+      <div id="section2-main-container">
+        <h3>npm Orgs is powerfull collaboration -- for free</h3>
+        <ul>
+          <li><p>Encourage code discovery and re-use within teams</p></li>
+          <li><p>Publish and control access to your own namespace</p></li>
+          <li><p>Manage public and private code with the same workflow</p></li>  <!--NO SE SI AQUI PONERLE CON <p> O DEJARLE SOLO CON <li>-->
+        </ul>
+        <div id="p-input-container">
+          <input type="submit" value="Sign up for Orgs"></input>
+          <p>or <a href="">learn more about Orgs.</a></p> <!--ESTO IRIA DENTRO DE UN FORMS O QUE PEDIN? LO PUEDO DEJAR SLO ASI ALV?-->
+        </div>
+      </div>
+  </section>
+
+  <section class="section3">
+    <div id="text-container">
+        <h4>What is npm?</h4>
+        <p>Use npm to install, share and distribute code; manage dependencies in your projects; and share & recieve feedback with others.</p> <!--TENDIRAN QUE IR EN DIVS TODOS LOS TEXTOS PARA QUE NO ESTEN SUELTOS O ES SUFICIENTE QUE ESTE DENTRO DE <section>-->
+        <input type="submit" value="Install npm"></input>
+    </div>
+  </section>
+
+  <section class="section4">
+    <div id="upper-text">
+    <h4>What can you make with 700,000 building blocks?</h4>
+    <p>The npm registry hosts almost a million of free, reusable code - the largest software registry in the world.</p>
+    </div>
+    <div class="bottom-divs">
+      <div class="bottom-squares">
+        <img src="images/binoculars.svg" alt="binoculars">
+        <h5>Find</h5>
+        <p>Librares like <strong>jQuery</strong>, <strong>Bootstrap</strong>,<strong>React</strong>, and components from frameworks such as <strong>Ember.</strong></p>
+      </div>
+
+      <div class="bottom-squares">
+        <img src="images/mountain-flag.svg" alt="Mountain">
+        <h5>Discover</h5>
+        <p>Packages for mobile, IoT, front end, back end, robotics... everything you need to start building amazing things.</p>
+      </div>
+
+      <div class="bottom-squares">
+        <img src="images/backpack.svg" alt="Backpack">
+        <h5>Build</h5>
+        <p>Assemble packages like building blocks to quickly develp awsome new projects.</p>
+      </div>
+    </div>
+  </section>
+
+
+
 </body>
 </html>

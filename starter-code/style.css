@@ -1,0 +1,258 @@
+
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+nav {
+    display: flex;
+    background-color: #B51906;
+    justify-content: space-between;
+    flex-direction: row;
+    color: white;
+    padding: 8px;
+    font-size: .8em;
+  }
+
+.navbar p{
+      margin: 0px 30px; /* Haciendole espacio al corazon inexistente*/
+}
+
+
+.navbar ul{
+    display: flex;
+    float: right;
+    flex-direction: row;
+}
+
+a ,li{
+    text-decoration: none; /* No sive*/
+    color: white;
+    margin-right: 20px;
+}
+
+header{
+    color: white;
+    background-image: url('images/city-scape.svg');
+    height: 400px;
+}
+
+.header-up {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.header-up #npm-logo, #bear-logo{
+    padding: 0px;
+    height: 40px;
+}
+
+.header-upper-rigth{
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.search-bar-cont{
+    display: flex;
+    flex-direction: row;
+}
+
+.search-bar-cont #button, #text-bar{
+    border: 1px groove #17212e;
+    color: rgb(132, 132, 142);
+    background-color: rgb(57, 72, 117, .5);
+    border-color: #929293 ;
+    height: 40px;
+}
+
+.search-bar-cont #button{
+    padding-left: 10px;
+}
+
+.search-bar-cont #text-bar{
+    width: 700px;
+    padding-left: 30px;
+}
+
+.maintext{
+    display: flex;
+    padding: 10px;
+    margin-left: 130px;
+    margin-top: 10px;
+    flex-flow: column wrap;
+    align-content: flex-start;
+}
+
+.maintext h2{
+    font-size: 2.7em;
+    padding: 10px;
+    text-align: left;
+}
+
+.maintext p{
+    text-align: left;
+    width: 500px;
+    padding: 20px;
+}
+
+.maintext #input-npm{
+    padding: 10px;
+    margin-left: 30px;
+    border: none;
+    background-color: #F8AD59;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    width: 150px;
+    font-size: 1em;
+}
+
+
+.section2 {
+  display: flex;
+  color: white;
+  background-color:#293455;
+  flex-direction: row;
+  align-items: center;
+  height: 450px;
+}
+
+.section2 img{
+  width: 400px;
+  margin: 30px 0px 30px 200px;
+}
+
+#section2-main-container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 30px 100px 30px 0px;
+}
+
+.section2 h3{
+  width: 500px;
+  flex-wrap: wrap;
+  text-align: left;
+  font-size: 2em;
+  padding: 20px;
+}
+
+.section2 li{
+    width: 500px;
+    padding: 7px;
+    margin: 0px 0px 0px 50px;
+}
+
+#p-input-container{
+    padding: 20px;
+    display: flex;
+    width: 400px;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: 0px 100px 0px 0px;
+}
+
+#p-input-container p{
+    padding: 10px;
+}
+
+.section2 input{
+    padding: 10px;
+    border: none;
+    background-color: #AD2414;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    width: 180px;
+    font-size: 1em;
+
+}
+
+.section3{
+    display: flex;
+    color:white;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-image: url("images/forklift.svg");
+    height: 500px;
+}
+
+#text-container{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    margin: 70px 70px 0px;
+}
+
+#text-container h4{
+    font-size: 2.2em;
+    width: 400px;
+    padding: 10px;
+}
+
+#text-container p{
+    padding: 10px 0px 15px 0px;
+    width: 300px;
+}
+
+#text-container input{
+    padding: 10px;
+    border: none;
+    background-color: #2A344F ;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    width: 130px;
+    font-size: 1em;
+}
+
+.section4{
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    text-align: center;
+    height: 300px;
+}
+
+#upper-text h4{
+    color: #686868;
+    font-size: 1.3em;
+    padding: 10px;
+}
+
+#upper-text p{
+    color: #817F7F;
+}
+
+.bottom-divs{
+    display: flex;
+    padding: 50px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.bottom-squares{
+    display: flex;
+    width: 300px;
+    justify-content: flex-start;
+    flex-flow: wrap column;
+}
+
+.bottom-squares h5{
+    font-size: 1.2em;
+    color: #575454;
+}
+
+.bottom-squares strong{
+    color: #C33929;
+}
+
+.bottom-squares p{
+    padding: 10px;
+    color: #817F7F;
+}
+
